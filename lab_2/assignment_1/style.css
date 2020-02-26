@@ -1,0 +1,12 @@
+.header {
+    background: blue;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    margin-bottom: 15px;
+
+}
