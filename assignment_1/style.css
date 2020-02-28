@@ -1,5 +1,5 @@
 .header {
-    background: blue;
+    background: #CC87FF;
     color: white;
     display: flex;
     flex-direction: row;
@@ -7,6 +7,58 @@
     justify-content: space-around;
     align-items: center;
     margin: 0;
-    margin-bottom: 15px;
+    padding: 15px;
 
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: bisque;
+}
+
+.portrait{
+    max-width: 400px;
+
+}
+.container{
+    max-width: 960px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.logo{
+    max-width: 250px;
+}
+
+body{
+    margin: 0px;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.one{
+    font-family: 'Oxanium';
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+h2{
+    font-family: 'Trade Winds';
+
+}
+.two{
+    font-family: 'Oxanium' ;
+    background-color: white ;
+    flex: 0 1 auto;
+    padding: 15px;
+}
+.one p{
+   background-color: white;
+   flex: 0 1 auto;
 }
