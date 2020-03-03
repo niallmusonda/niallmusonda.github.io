@@ -61,4 +61,5 @@ h2{
 .one p{
    background-color: white;
    flex: 0 1 auto;
+   width: 200px;
 }
