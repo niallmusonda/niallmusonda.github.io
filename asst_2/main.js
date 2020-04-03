@@ -6,6 +6,7 @@ const overlay = document.querySelector('.overlay');
 
 /* Looping through images */
 
+/* with help from discourse.mozilla.org */
 for(let i = 1; i <= 5; i++) {
     const newImage = document.createElement('img');
     newImage.setAttribute('src', 'images/pic' + i + '.jpg');
@@ -15,7 +16,7 @@ for(let i = 1; i <= 5; i++) {
     }
 } 
 
-/* Wiring up the Darken/Lighten button */
+/* Wiring up the Darken/Lighten button with help from discourse.mozilla.org */
 
 btn.onclick = function() {
     const btnClass = btn.getAttribute('class');
