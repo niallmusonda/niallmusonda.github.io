@@ -105,4 +105,12 @@ h3 {
   height: 180px;
   width: 300px;
   border-radius: 2px;
+  margin: 0 auto;
 }
+
+.leaflet-popup-content-wrapper {
+    background: #C4FFA3;
+    color: #8C9C64;
+    box-shadow: #E8DE95;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    }
